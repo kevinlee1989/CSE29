@@ -1,0 +1,14 @@
+ Could we just flip the 2^5 bit?
+         YES! There are bitwise operators for that
+         return c | 0b0010000 ;
+         | is called "bitwise or"
+
+         bitwise or | and bitwise and &
+         Perform the operation on each bit of the inputs
+                  0110
+                | 1010        or operation 은 내가생각하는 or 이라고 생각하면됨 둘다 0 이아니면 그냥 1
+                  1110
+
+                  0110
+                & 1010        and operation은 내가생각하는 and, 둘다 1이어야 1이 나옴. 
+                  0010
