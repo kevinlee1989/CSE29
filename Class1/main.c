@@ -5,7 +5,7 @@ int main(){
     char hello2[] = {72, 101, 108, 108, 111, 33, 0};
 
     puts(hello); // Printing out function.
-    puts(hello2);
+    puts(hello2); // dafdsfa
 
     // hello and hello2 store exactly the same data.
     // somewhere there is a mapping from numbers to chars

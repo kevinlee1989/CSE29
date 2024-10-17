@@ -42,7 +42,7 @@ int main() {
 
     printf("sizeof(c2): %ld\n", sizeof(c2)); // 1
 
-    char arr[] = "hello!"; // Null terminator so print 7
+    char arr[] = "heléo!"; // Null terminator so print 7
     printf("sizeof(arr): %ld\n", sizeof(arr));
 
     // !!!!!!!!!!!!!SIZEOF is NOT STRLEN !!!!!!!!!!!!!!!!!!!

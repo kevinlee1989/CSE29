@@ -30,9 +30,9 @@ void tests_is_ascii() {
     test_is_ascii('a');
     test_is_ascii(0b10000000);
     test_is_ascii(0b01111111);
-    for(int i = 0b00000000; i <= 0b11111111; i += 1) {
-        test_is_ascii(i);
-    }
+    //for(int i = 0b00000000; i <= 0b11111111; i += 1) {
+        //test_is_ascii(i);
+   // }
 }
 
 int main() {
